@@ -1,0 +1,7 @@
+#kesalah edit file rc,yang mengakibatkan file RO(read only)
+
+1.reboot dan masuk single-mode
+2.mount -a -t ufs
+3.reboot
+
+#source https://docs.freebsd.org/en/books/faq/#hardware
